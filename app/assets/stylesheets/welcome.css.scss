@@ -1,0 +1,30 @@
+.ellipsis-container {
+  overflow: hidden;
+}
+
+.ellipsis-container:before {
+  content:"";
+  float: left;
+  width: 1px;
+  height: 100%;
+}
+
+.ellipsis-wrapper {
+  float: right;
+  width: 100%;
+  margin-left: -1px;
+}
+
+.ellipsis-content {
+  margin: 0;
+}
+
+.ellipsis {
+  box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  float: right;
+  position: relative;
+  margin-right: 1px;
+  text-align: right;
+}
